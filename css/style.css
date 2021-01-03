@@ -255,9 +255,15 @@ dropdown*/
 .make
 {
 	padding: 60px 0!important;
-	min-height: 300px;
+	min-height: 800px;
 	background-color: rgba(0,255,255,0.1);
 	position: relative;
+}
+
+.make-left
+{
+	/*position: absolute;
+	z-index: 999;*/
 }
 
 
@@ -561,7 +567,8 @@ commment*/
 
 .comment
 {
-	padding: 400px 0;
+	padding-top: 400px;
+	padding-bottom: 100px;
 	background-color: #000;
 }
 
@@ -591,4 +598,150 @@ commment*/
 	font-weight: 600;
 	margin: 10px 0;
 	line-height: 30px;
+}
+
+/*=======
+fast*/
+
+.fast
+{
+	padding: 70px;
+	background-color: #000;
+	border-top: 1px solid #fff5;
+}
+
+.fast-title
+{
+	font-weight: 700;
+	color: #fff;
+}
+
+.fast-txt
+{
+	font-weight: 600;
+	color: #fff5;
+	line-height: 40px;
+	margin: 30px auto !important;
+}
+
+.fast-link
+{
+	display: inline-block;
+	color: #fff8;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 7px;
+	padding: 10px 20px;
+	background-color: #f009;
+	font-weight: 700;
+}
+
+.fast-link:hover
+{
+	background-color: #f00;
+	color: #fff;
+	transition: 0.4s;
+}
+
+.fast-mute-link
+{
+	color: #fff9;
+	margin: 10px auto;
+	border-radius: 7px;
+	padding: 10px 20px;
+	text-align: center;
+	transition: 0.4s;
+
+}
+
+.fast-mute-link:hover
+{
+	background-color: #fff5;
+	color: #000;
+	transition: 0.4s;
+}
+
+
+/*==========
+footer*/
+
+
+
+.footer-brand
+{
+	font-weight: 700;
+	font-size: 25px;
+}
+
+
+.footer-logo-link
+{
+	width: 30px;
+	margin: 0 5px;
+}
+
+.footer-logo-link:hover .footer-logo
+{
+	fill: red!important;
+}
+
+.footer-logo
+{
+	fill: red!important;
+}
+
+
+.footer-txt
+{
+	font-size: 20px;
+	font-weight: 500;
+	color: #0008;
+	margin: 20px 0;
+}
+
+.footer-content-txt
+{
+	font-weight: 700;
+	color: #0008;
+	padding: 0 10px;
+}
+
+.footer-link
+{
+	font-weight: 600;
+	color: #f007!important;
+	margin: 5px 0;
+	padding: 15px 10px;
+	transition: 0.4s;
+	border-radius: 5px;
+	/*background-color: #f005;*/
+}
+
+.footer-link:hover
+{
+	color: #f00!important;
+	/*background-color: #0005;*/
+	transform: translateX(10px);
+	box-shadow: -10px 0 5px #f005;
+	transition: 0.7s;
+}
+
+.footer-tel-link
+{
+	color: rgba(84,84,212,0.7)!important;
+	font-weight: 700;
+	/*color: #f007!important;*/
+	margin: 5px 0;
+	padding: 15px 10px;
+	transition: 0.4s;
+	border-radius: 5px;
+}
+
+.footer-tel-link:hover
+{
+	color: rgba(50,84,212,1)!important;
+	/*background-color: #0005;*/
+	transform: translateX(10px);
+	box-shadow: -10px 0 5px rgba(50,84,212,0.5);
+	transition: 0.7s;
 }
