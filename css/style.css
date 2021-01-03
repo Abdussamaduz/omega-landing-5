@@ -396,5 +396,80 @@ love*/
 	text-align: center;
 }
 
+/*==========
+price*/
 
+.price
+{
+	padding: 70px 0;
+}
 
+.price-title
+{
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.price-txt
+{
+	color: #0007;
+	text-align: center;
+	font-weight: 600;
+	margin: 20px auto;
+}
+
+.form-check-label
+{
+	margin-right: 60px;
+	outline: none;
+	border: none;
+	color: #0007;
+	font-weight: 600;
+}
+
+.form-check-input
+{
+	margin: 0 20px;
+	outline: none;
+	border: none;
+	background-color: #f009;
+	cursor: pointer;
+	padding: 10px 20px;
+	transition: 0.4s;
+}
+
+.form-check-input:hover
+{
+	transform: scale(1.1);
+	transition: 0.4s;
+}
+
+.form-check-label-2
+{
+	margin-left: 60px;
+	outline: none;
+	border: none;
+	color: #0007;
+	font-weight: 600;
+}
+
+.price-btn
+{
+	border: none;
+	outline: none;
+	background-color: #f009;
+	color: #fff9;
+	font-weight: 600;
+	margin-left: 20px;
+	transition: 0.4s;
+}
+
+.price-btn:hover
+{
+	background-color: #f00;
+	color: #fff;
+	transition: 0.4s;
+	transform: scale(1.03);
+}
