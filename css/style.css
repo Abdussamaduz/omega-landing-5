@@ -216,24 +216,158 @@ dropdown*/
 .brands-list
 {
 	padding: 30px 0;
+	display: flex;
+	align-items: center;
 }
 
 .brands-link
 {
-	padding: 15px 30px;
+	display: block;
+	padding: 10px 20px;
 	border-radius: 10px;
+}
+
+.brands-link:hover .brands-logo
+{
+	transform: translateY(-3px);
+	box-shadow: 0 3px 3px #0005;
+	transition: 0.4s;
 }
 
 .brands-item
 {
-	margin: 10px 20px;
+	/*margin: 10px 20px;*/
+	padding: 10px 20px;
 }
 
 .brands-logo
 {
 	fill: #000!important;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: 0.4s;
 }
 
+/*==========*/
+/*make*/
+
+.make
+{
+	padding: 60px 0!important;
+	min-height: 300px;
+	background-color: rgba(0,255,255,0.1);
+	position: relative;
+}
+
+
+.make-right
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.make-left-item
+{
+	padding: 10px 20px;
+	background-color: #fff;
+	margin: 10px 0;
+	border-radius: 5px;
+}
+
+.make-left-icon
+{
+	margin-right: 15px;
+}
+
+/*===========
+fit*/
+
+.fit
+{
+	padding: 30px 0;
+}
+
+.fit-link
+{
+	display: block;
+	text-decoration: none;
+}
+
+.fit-link:hover .fit-img
+{
+	transform: scale(1.05);
+	transition: 0.4s;
+}
+
+.fit-img
+{
+	transition: 0.4s;
+}
+
+.fit-title
+{
+	font-weight: 700;
+
+}
+
+.fit-txt
+{
+	font-weight: 700!important;
+	color: #0006!important;
+	margin: 30px 0;
+	line-height: 35px;
+}
+
+.fit-item
+{
+	margin: 20px 0;
+	padding: 10px 0px;
+}
+
+.fit-icon
+{
+	margin-right: 20px;
+}
+
+.fit-list-title
+{
+	font-weight: 600;
+	color: #000e;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+.fit-item-txt
+{
+	font-weight: 600;
+	color: #0007;
+	font-size: 15px;
+}
+
+/*===========
+love*/
+
+
+.love
+{
+	padding: 50px 0;
+}
+
+.love-title
+{
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+}
+
+.love-txt
+{
+	font-weight: 600;
+	color: #0006;
+	text-align: center;
+	margin: 30px auto;
+}
 
 
 
