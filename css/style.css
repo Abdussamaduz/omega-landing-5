@@ -352,6 +352,7 @@ love*/
 .love
 {
 	padding: 50px 0;
+	background-color: rgb(0,100,100,0.05);
 }
 
 .love-title
@@ -369,7 +370,31 @@ love*/
 	margin: 30px auto;
 }
 
+.love-item
+{
+	padding: 10px 20px;
+	margin: 50px 20px !important;
+}
 
+.love-item span
+{
+	font-size: 65px;
+}
+
+.love-price
+{
+	font-size: 60px;
+	font-weight: 700;
+	color: rgb(84,84,212);
+	text-align: center;
+}
+
+.love-list-txt
+{
+	color: #0006;
+	font-weight: 600;
+	text-align: center;
+}
 
 
 
